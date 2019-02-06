@@ -15,7 +15,9 @@ Data-Image
 #### Steps
 ... I build a function that split data using train_test_split module in sklearn library and assign 80% of the data as training set and the remaining 20% as testing set. Then I define the random state default to 42 – a number normally used in data split. Further analysis on optimizing random state can be found in one of my previous research.  
 
-... The function also takes in models as an argument to trained with split datasets. A Yellowbrick confusion matrix is later used to visualize results from predicted values against actual values from each model. Refer to the confusion matrix, we can clear see the misclassification is fairly low.![Screenshot](./selector_img/ml2.png)
+... The function also takes in models as an argument to trained with split datasets. A Yellowbrick confusion matrix is later used to visualize results from predicted values against actual values from each model. Refer to the confusion matrix, we can clear see the misclassification is fairly low.
+
+![Screenshot](./selector_img/ml2.png)
 
 Models tested:
 ![Screenshot](./selector_img/ml3.png)
