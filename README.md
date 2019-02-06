@@ -9,6 +9,7 @@
 Classification is one of the most used case in machine learning. In this project, I started applying 
 A Support Vector Machine (SVM) model to a set of images, then predict the remaining images based on the trained model. After testing, I decided to build a machine learning model selector that auto select the best classification model with the highest R-square. As a result, after cross validation, the best machine learning model in this sets of digit images are the SCM-SVC model that yields 99.44% accuracy after a 6-fold cross validation. 
 Data-Image
+
  
 ### Techniques and Procedure
 #### Steps
@@ -19,5 +20,5 @@ Data-Image
 ... In order to obtain a more accurate evaluation of the test results, sklearn cross validation is used here to improve the generalization of the test result. At the end of the evaluation. A report and scatter plot are used to illustrate the results. The chart on the right shows the prediction vs actual value after 6-fold cross validation, we can see a pattern that results are line up with the diagonal which is good.  
   
 ### Conclusion 
-	With the R-Square of 0.95 and close to 100% accuracy and recall from cross validation, the model SVM.SVC triumphed among the tested models. Therefore, I suggest to start with SVM.SVC model when working on image classification problems. 
+With the R-Square of 0.95 and close to 100% accuracy and recall from cross validation, the model SVM.SVC triumphed among the tested models. Therefore, I suggest to start with SVM.SVC model when working on image classification problems. 
 
